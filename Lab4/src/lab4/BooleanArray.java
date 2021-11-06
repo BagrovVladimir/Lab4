@@ -63,10 +63,6 @@ public class BooleanArray implements MassiveOperations{
     public String toString() {
         if (b==null || b.length==0) {throw new NullPointerException("Array is emty");}
         String s;
-        /*String rezult="";
-        for (int i = 0; i < b.length; i++) {
-            boolean value = b[i];   
-        }*/
         
         String [] rez= new String[Size];
         for (int i = 0; i < b.length; i++) {
