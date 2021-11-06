@@ -4,7 +4,7 @@ package lab4;
 import java.util.Arrays;
 
 public class BooleanArray implements MassiveOperations{
-    private final boolean [] b= new boolean[Size];
+    private boolean [] b= new boolean[Size];
 
     @Override
     public boolean getElement(int index) {
