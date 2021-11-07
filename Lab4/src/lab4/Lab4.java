@@ -1,6 +1,8 @@
 
 package lab4;
 
+import java.util.Arrays;
+
 public class Lab4 {
 
     public static void main(String[] args) {
@@ -22,6 +24,22 @@ public class Lab4 {
         System.out.println(mo.countTrue());
         System.out.println(mo.toString());
         System.out.println("");
+        
+        /*MassiveOperations moi= new IntArray();
+        
+        System.out.println(moi.getElement(0));
+        System.out.println(moi.countTrue());
+        System.out.println("");
+        
+        moi.setElement(1);
+        moi.setElement(4);
+        System.out.println(moi.toString());
+        moi.invert(3);
+        moi.sbrosFalse(4);
+        moi.setElement(5, true);
+        System.out.println(moi.countTrue());
+        System.out.println(moi.toString());*/
+       
 
         
     }

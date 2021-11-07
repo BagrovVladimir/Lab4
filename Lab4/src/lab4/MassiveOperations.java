@@ -2,7 +2,7 @@
 package lab4;
 
 public interface MassiveOperations {
-    int Size=1024;
+    int size=1024;
     
     boolean getElement(int index);
     void setElement(int index);

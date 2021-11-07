@@ -4,7 +4,7 @@ package lab4;
 import java.util.Arrays;
 
 public class BooleanArray implements MassiveOperations{
-    private boolean [] b= new boolean[Size];
+    private boolean [] b= new boolean[size];
 
     @Override
     public boolean getElement(int index) {
@@ -64,7 +64,7 @@ public class BooleanArray implements MassiveOperations{
         if (b==null || b.length==0) {throw new NullPointerException("Array is emty");}
         String s;
         
-        String [] rez= new String[Size];
+        String [] rez= new String[size];
         for (int i = 0; i < b.length; i++) {
             boolean value = b[i];
             if(value){rez[i]="1";}
