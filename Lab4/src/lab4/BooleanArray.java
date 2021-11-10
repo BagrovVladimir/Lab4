@@ -4,8 +4,18 @@ package lab4;
 import java.util.Arrays;
 
 public class BooleanArray implements MassiveOperations{
+    
     private boolean [] b= new boolean[size];
-
+    
+    @Override
+    public String showArray() {
+        if (b==null || b.length==0) {throw new NullPointerException("Array is emty");}
+        
+        String s;
+        s= Arrays.toString(b);
+        return s;
+    }
+    
     @Override
     public boolean getElement(int index) {
         if (b==null || b.length==0) {throw new NullPointerException("Array is emty");}
@@ -73,8 +83,7 @@ public class BooleanArray implements MassiveOperations{
         s= Arrays.toString(rez);
         return s;  
     }
-    
-    
+
 }   
     
 

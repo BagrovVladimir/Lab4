@@ -4,7 +4,17 @@ package lab4;
 import java.util.Arrays;
 
 public class IntArray implements MassiveOperations{
+    
     private int[] intArray= new int[size/32];
+    
+    @Override
+    public String showArray() {
+        if (intArray==null || intArray.length==0) {throw new NullPointerException("Array is emty");}
+        
+        String s;
+        s= Arrays.toString(intArray);
+        return s;
+    }
 
     @Override
     public boolean getElement(int index) {
